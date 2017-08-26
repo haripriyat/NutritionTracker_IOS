@@ -1,0 +1,9 @@
+Tesseract OCR: http://lois.di-qual.net/blog/install-and-use-tesseract-on-ios-with-tesseract-ios/
+Upload photos and take photos: from homework 7 code
+
+Social Integration: Google Calendar API
+Database: SQLite
+Third Party API: Tesseract OCR engine
+Package Name: edu.cmu.nutritionTracker
+Google App Id: 1:1059487596200:ios:d200c7af04c47683
+Client Id - Oath 2.0: http://1059487596200-27v0veq4u7edsjcvbu6v2q9v6d7qigbb.apps.googleusercontent.com/

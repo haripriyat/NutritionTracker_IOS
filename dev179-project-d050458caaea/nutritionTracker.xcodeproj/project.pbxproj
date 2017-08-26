@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45ABE41E1F2810BA004DDC3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ABE41D1F2810BA004DDC3F /* main.m */; };
+		45ABE4211F2810BA004DDC3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ABE4201F2810BA004DDC3F /* AppDelegate.m */; };
+		45ABE42A1F2810BA004DDC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45ABE4281F2810BA004DDC3F /* Main.storyboard */; };
+		45ABE42C1F2810BA004DDC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45ABE42B1F2810BA004DDC3F /* Assets.xcassets */; };
+		45ABE42F1F2810BA004DDC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45ABE42D1F2810BA004DDC3F /* LaunchScreen.storyboard */; };
+		45ABE43A1F2810BB004DDC3F /* nutritionTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ABE4391F2810BB004DDC3F /* nutritionTrackerTests.m */; };
+		45ABE4451F2810BB004DDC3F /* nutritionTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ABE4441F2810BB004DDC3F /* nutritionTrackerUITests.m */; };
+		5543B0C515F145A7355177BD /* libPods-nutritionTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D782083BA228A90E09F60E9 /* libPods-nutritionTracker.a */; };
+		8450F67C1F2CE29200C1E0B8 /* ReminderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8450F67B1F2CE29200C1E0B8 /* ReminderTableViewController.m */; };
+		8450F67F1F2CE42A00C1E0B8 /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8450F67E1F2CE42A00C1E0B8 /* AddReminderViewController.m */; };
+		8450F6811F2CFAD700C1E0B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8450F6801F2CFAD700C1E0B8 /* GoogleService-Info.plist */; };
+		8450F6841F2D5A2800C1E0B8 /* DeleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8450F6831F2D5A2800C1E0B8 /* DeleteViewController.m */; };
+		9B1FDBF41F30F68600AD213E /* home-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B1FDBF31F30F68600AD213E /* home-icon.jpg */; };
+		9BA7EB231F30E3E700F12938 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA7EB201F30E3E700F12938 /* Default-568h@2x.png */; };
+		9BA7EB241F30E3E700F12938 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA7EB211F30E3E700F12938 /* Default.png */; };
+		9BA7EB251F30E3E700F12938 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA7EB221F30E3E700F12938 /* Default@2x.png */; };
+		9BA7EB271F30EF7900F12938 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 9BA7EB261F30EF7900F12938 /* tessdata */; };
+		9BA7EB291F30F06400F12938 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA7EB281F30F06400F12938 /* libz.tbd */; };
+		9BE6866D1F30A7050085DB2D /* EditGoalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE686671F30A7050085DB2D /* EditGoalViewController.m */; };
+		9BE6866E1F30A7050085DB2D /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9BE686681F30A7050085DB2D /* en.lproj */; };
+		9BE686701F30A7050085DB2D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6866C1F30A7050085DB2D /* HomeViewController.m */; };
+		9BE686731F30A75B0085DB2D /* PieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE686721F30A75B0085DB2D /* PieProgressView.m */; };
+		9BE686761F30A9A60085DB2D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BE686741F30A9A60085DB2D /* Model.xcdatamodeld */; };
+		9BE686791F30B1B20085DB2D /* UICameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BE686781F30B1B20085DB2D /* UICameraViewController.mm */; };
+		9BE6867B1F30B37B0085DB2D /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE6867A1F30B37B0085DB2D /* libstdc++.6.0.9.tbd */; };
+		9BE686851F30B65A0085DB2D /* Tesseract.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9BE686841F30B65A0085DB2D /* Tesseract.mm */; };
+		9BE686881F30B6690085DB2D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9BE686861F30B6690085DB2D /* LICENSE */; };
+		9BE686891F30B6690085DB2D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9BE686871F30B6690085DB2D /* README.md */; };
+		9BE6868C1F30B6970085DB2D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6868B1F30B6970085DB2D /* README.md */; };
+		9BE686931F30B6E50085DB2D /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE686911F30B6E50085DB2D /* liblept.a */; };
+		9BE686941F30B6E50085DB2D /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE686921F30B6E50085DB2D /* libtesseract_all.a */; };
+		9BE686FA1F30B9AE0085DB2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE686F91F30B9AE0085DB2D /* CoreGraphics.framework */; };
+		9BE686FC1F30B9C80085DB2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE686FB1F30B9C80085DB2D /* UIKit.framework */; };
+		9BE686FE1F30B9D30085DB2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE686FD1F30B9D30085DB2D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45ABE4361F2810BB004DDC3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45ABE4111F2810BA004DDC3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45ABE4181F2810BA004DDC3F;
+			remoteInfo = nutritionTracker;
+		};
+		45ABE4411F2810BB004DDC3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45ABE4111F2810BA004DDC3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45ABE4181F2810BA004DDC3F;
+			remoteInfo = nutritionTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0858104EF2E5A4660AFEC35B /* Pods-nutritionTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutritionTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nutritionTracker/Pods-nutritionTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		45ABE4191F2810BA004DDC3F /* nutritionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nutritionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45ABE41D1F2810BA004DDC3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45ABE41F1F2810BA004DDC3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45ABE4201F2810BA004DDC3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45ABE4291F2810BA004DDC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45ABE42B1F2810BA004DDC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45ABE42E1F2810BA004DDC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45ABE4301F2810BA004DDC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45ABE4351F2810BB004DDC3F /* nutritionTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nutritionTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45ABE4391F2810BB004DDC3F /* nutritionTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nutritionTrackerTests.m; sourceTree = "<group>"; };
+		45ABE43B1F2810BB004DDC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45ABE4401F2810BB004DDC3F /* nutritionTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nutritionTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45ABE4441F2810BB004DDC3F /* nutritionTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nutritionTrackerUITests.m; sourceTree = "<group>"; };
+		45ABE4461F2810BB004DDC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D782083BA228A90E09F60E9 /* libPods-nutritionTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nutritionTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8450F67A1F2CE29200C1E0B8 /* ReminderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderTableViewController.h; sourceTree = "<group>"; };
+		8450F67B1F2CE29200C1E0B8 /* ReminderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderTableViewController.m; sourceTree = "<group>"; };
+		8450F67D1F2CE42A00C1E0B8 /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
+		8450F67E1F2CE42A00C1E0B8 /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
+		8450F6801F2CFAD700C1E0B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8450F6821F2D5A2800C1E0B8 /* DeleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteViewController.h; sourceTree = "<group>"; };
+		8450F6831F2D5A2800C1E0B8 /* DeleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteViewController.m; sourceTree = "<group>"; };
+		9B1FDBF31F30F68600AD213E /* home-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "home-icon.jpg"; sourceTree = SOURCE_ROOT; };
+		9BA7EB201F30E3E700F12938 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9BA7EB211F30E3E700F12938 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9BA7EB221F30E3E700F12938 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9BA7EB261F30EF7900F12938 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		9BA7EB281F30F06400F12938 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9BE686661F30A7050085DB2D /* EditGoalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditGoalViewController.h; sourceTree = "<group>"; };
+		9BE686671F30A7050085DB2D /* EditGoalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditGoalViewController.m; sourceTree = "<group>"; };
+		9BE686681F30A7050085DB2D /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		9BE686691F30A7050085DB2D /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		9BE6866A1F30A7050085DB2D /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		9BE6866B1F30A7050085DB2D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9BE6866C1F30A7050085DB2D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9BE686711F30A75B0085DB2D /* PieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieProgressView.h; sourceTree = "<group>"; };
+		9BE686721F30A75B0085DB2D /* PieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieProgressView.m; sourceTree = "<group>"; };
+		9BE686751F30A9A60085DB2D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9BE686771F30B1B20085DB2D /* UICameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICameraViewController.h; sourceTree = SOURCE_ROOT; };
+		9BE686781F30B1B20085DB2D /* UICameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UICameraViewController.mm; sourceTree = SOURCE_ROOT; };
+		9BE6867A1F30B37B0085DB2D /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		9BE6867D1F30B6110085DB2D /* TesseractSample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TesseractSample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		9BE686831F30B65A0085DB2D /* Tesseract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tesseract.h; path = "tesseract-ios/Classes/Tesseract.h"; sourceTree = SOURCE_ROOT; };
+		9BE686841F30B65A0085DB2D /* Tesseract.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Tesseract.mm; path = "tesseract-ios/Classes/Tesseract.mm"; sourceTree = SOURCE_ROOT; };
+		9BE686861F30B6690085DB2D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = "tesseract-ios/LICENSE"; sourceTree = SOURCE_ROOT; };
+		9BE686871F30B6690085DB2D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "tesseract-ios/README.md"; sourceTree = SOURCE_ROOT; };
+		9BE6868B1F30B6970085DB2D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "tesseract-ios-lib/README.md"; sourceTree = SOURCE_ROOT; };
+		9BE686911F30B6E50085DB2D /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblept.a; path = "tesseract-ios-lib/lib/liblept.a"; sourceTree = SOURCE_ROOT; };
+		9BE686921F30B6E50085DB2D /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_all.a; path = "tesseract-ios-lib/lib/libtesseract_all.a"; sourceTree = SOURCE_ROOT; };
+		9BE686951F30B6FB0085DB2D /* ambigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ambigs.h; path = "tesseract-ios-lib/include/tesseract/ambigs.h"; sourceTree = SOURCE_ROOT; };
+		9BE686961F30B6FB0085DB2D /* apitypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = apitypes.h; path = "tesseract-ios-lib/include/tesseract/apitypes.h"; sourceTree = SOURCE_ROOT; };
+		9BE686971F30B6FB0085DB2D /* baseapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = baseapi.h; path = "tesseract-ios-lib/include/tesseract/baseapi.h"; sourceTree = SOURCE_ROOT; };
+		9BE686981F30B6FB0085DB2D /* basedir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = basedir.h; path = "tesseract-ios-lib/include/tesseract/basedir.h"; sourceTree = SOURCE_ROOT; };
+		9BE686991F30B6FB0085DB2D /* bits16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bits16.h; path = "tesseract-ios-lib/include/tesseract/bits16.h"; sourceTree = SOURCE_ROOT; };
+		9BE6869A1F30B6FB0085DB2D /* bitvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bitvector.h; path = "tesseract-ios-lib/include/tesseract/bitvector.h"; sourceTree = SOURCE_ROOT; };
+		9BE6869B1F30B6FB0085DB2D /* ccutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccutil.h; path = "tesseract-ios-lib/include/tesseract/ccutil.h"; sourceTree = SOURCE_ROOT; };
+		9BE6869C1F30B6FB0085DB2D /* clst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clst.h; path = "tesseract-ios-lib/include/tesseract/clst.h"; sourceTree = SOURCE_ROOT; };
+		9BE6869D1F30B6FB0085DB2D /* control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = control.h; path = "tesseract-ios-lib/include/tesseract/control.h"; sourceTree = SOURCE_ROOT; };
+		9BE6869E1F30B6FB0085DB2D /* cube_reco_context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cube_reco_context.h; path = "tesseract-ios-lib/include/tesseract/cube_reco_context.h"; sourceTree = SOURCE_ROOT; };
+		9BE6869F1F30B6FB0085DB2D /* cubeclassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cubeclassifier.h; path = "tesseract-ios-lib/include/tesseract/cubeclassifier.h"; sourceTree = SOURCE_ROOT; };
+		9BE686A01F30B6FB0085DB2D /* docqual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = docqual.h; path = "tesseract-ios-lib/include/tesseract/docqual.h"; sourceTree = SOURCE_ROOT; };
+		9BE686A11F30B6FB0085DB2D /* elst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = elst.h; path = "tesseract-ios-lib/include/tesseract/elst.h"; sourceTree = SOURCE_ROOT; };
+		9BE686A21F30B6FB0085DB2D /* elst2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = elst2.h; path = "tesseract-ios-lib/include/tesseract/elst2.h"; sourceTree = SOURCE_ROOT; };
+		9BE686A31F30B6FB0085DB2D /* equationdetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = equationdetect.h; path = "tesseract-ios-lib/include/tesseract/equationdetect.h"; sourceTree = SOURCE_ROOT; };
+		9BE686A41F30B6FB0085DB2D /* errcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = errcode.h; path = "tesseract-ios-lib/include/tesseract/errcode.h"; sourceTree = SOURCE_ROOT; };
+		9BE686A51F30B6FB0085DB2D /* fileerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fileerr.h; path = "tesseract-ios-lib/include/tesseract/fileerr.h"; sourceTree = SOURCE_ROOT; };
+		9BE686A61F30B6FB0085DB2D /* fixspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fixspace.h; path = "tesseract-ios-lib/include/tesseract/fixspace.h"; sourceTree = SOURCE_ROOT; };
+		9BE686A71F30B6FB0085DB2D /* genericvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = genericvector.h; path = "tesseract-ios-lib/include/tesseract/genericvector.h"; sourceTree = SOURCE_ROOT; };
+		9BE686A81F30B6FB0085DB2D /* globaloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = globaloc.h; path = "tesseract-ios-lib/include/tesseract/globaloc.h"; sourceTree = SOURCE_ROOT; };
+		9BE686A91F30B6FB0085DB2D /* hashfn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hashfn.h; path = "tesseract-ios-lib/include/tesseract/hashfn.h"; sourceTree = SOURCE_ROOT; };
+		9BE686AA1F30B6FB0085DB2D /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = helpers.h; path = "tesseract-ios-lib/include/tesseract/helpers.h"; sourceTree = SOURCE_ROOT; };
+		9BE686AB1F30B6FB0085DB2D /* host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = host.h; path = "tesseract-ios-lib/include/tesseract/host.h"; sourceTree = SOURCE_ROOT; };
+		9BE686AC1F30B6FB0085DB2D /* hosthplb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hosthplb.h; path = "tesseract-ios-lib/include/tesseract/hosthplb.h"; sourceTree = SOURCE_ROOT; };
+		9BE686AD1F30B6FB0085DB2D /* imgscale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgscale.h; path = "tesseract-ios-lib/include/tesseract/imgscale.h"; sourceTree = SOURCE_ROOT; };
+		9BE686AE1F30B6FB0085DB2D /* indexmapbidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = indexmapbidi.h; path = "tesseract-ios-lib/include/tesseract/indexmapbidi.h"; sourceTree = SOURCE_ROOT; };
+		9BE686AF1F30B6FB0085DB2D /* lsterr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lsterr.h; path = "tesseract-ios-lib/include/tesseract/lsterr.h"; sourceTree = SOURCE_ROOT; };
+		9BE686B01F30B6FB0085DB2D /* ltrresultiterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ltrresultiterator.h; path = "tesseract-ios-lib/include/tesseract/ltrresultiterator.h"; sourceTree = SOURCE_ROOT; };
+		9BE686B11F30B6FB0085DB2D /* memry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = memry.h; path = "tesseract-ios-lib/include/tesseract/memry.h"; sourceTree = SOURCE_ROOT; };
+		9BE686B21F30B6FB0085DB2D /* mfcpch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mfcpch.h; path = "tesseract-ios-lib/include/tesseract/mfcpch.h"; sourceTree = SOURCE_ROOT; };
+		9BE686B31F30B6FB0085DB2D /* mutableiterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mutableiterator.h; path = "tesseract-ios-lib/include/tesseract/mutableiterator.h"; sourceTree = SOURCE_ROOT; };
+		9BE686B41F30B6FB0085DB2D /* ndminx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ndminx.h; path = "tesseract-ios-lib/include/tesseract/ndminx.h"; sourceTree = SOURCE_ROOT; };
+		9BE686B51F30B6FB0085DB2D /* notdll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notdll.h; path = "tesseract-ios-lib/include/tesseract/notdll.h"; sourceTree = SOURCE_ROOT; };
+		9BE686B61F30B6FB0085DB2D /* nwmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nwmain.h; path = "tesseract-ios-lib/include/tesseract/nwmain.h"; sourceTree = SOURCE_ROOT; };
+		9BE686B71F30B6FB0085DB2D /* ocrclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ocrclass.h; path = "tesseract-ios-lib/include/tesseract/ocrclass.h"; sourceTree = SOURCE_ROOT; };
+		9BE686B81F30B6FB0085DB2D /* osdetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = osdetect.h; path = "tesseract-ios-lib/include/tesseract/osdetect.h"; sourceTree = SOURCE_ROOT; };
+		9BE686B91F30B6FB0085DB2D /* output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = output.h; path = "tesseract-ios-lib/include/tesseract/output.h"; sourceTree = SOURCE_ROOT; };
+		9BE686BA1F30B6FB0085DB2D /* pageiterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pageiterator.h; path = "tesseract-ios-lib/include/tesseract/pageiterator.h"; sourceTree = SOURCE_ROOT; };
+		9BE686BB1F30B6FB0085DB2D /* paragraphs_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = paragraphs_internal.h; path = "tesseract-ios-lib/include/tesseract/paragraphs_internal.h"; sourceTree = SOURCE_ROOT; };
+		9BE686BC1F30B6FB0085DB2D /* paragraphs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = paragraphs.h; path = "tesseract-ios-lib/include/tesseract/paragraphs.h"; sourceTree = SOURCE_ROOT; };
+		9BE686BD1F30B6FB0085DB2D /* params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = params.h; path = "tesseract-ios-lib/include/tesseract/params.h"; sourceTree = SOURCE_ROOT; };
+		9BE686BE1F30B6FB0085DB2D /* paramsd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = paramsd.h; path = "tesseract-ios-lib/include/tesseract/paramsd.h"; sourceTree = SOURCE_ROOT; };
+		9BE686BF1F30B6FB0085DB2D /* pgedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pgedit.h; path = "tesseract-ios-lib/include/tesseract/pgedit.h"; sourceTree = SOURCE_ROOT; };
+		9BE686C01F30B6FB0085DB2D /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = platform.h; path = "tesseract-ios-lib/include/tesseract/platform.h"; sourceTree = SOURCE_ROOT; };
+		9BE686C11F30B6FB0085DB2D /* publictypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = publictypes.h; path = "tesseract-ios-lib/include/tesseract/publictypes.h"; sourceTree = SOURCE_ROOT; };
+		9BE686C21F30B6FB0085DB2D /* qrsequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = qrsequence.h; path = "tesseract-ios-lib/include/tesseract/qrsequence.h"; sourceTree = SOURCE_ROOT; };
+		9BE686C31F30B6FB0085DB2D /* reject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reject.h; path = "tesseract-ios-lib/include/tesseract/reject.h"; sourceTree = SOURCE_ROOT; };
+		9BE686C41F30B6FB0085DB2D /* resultiterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resultiterator.h; path = "tesseract-ios-lib/include/tesseract/resultiterator.h"; sourceTree = SOURCE_ROOT; };
+		9BE686C51F30B6FB0085DB2D /* scaleimg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scaleimg.h; path = "tesseract-ios-lib/include/tesseract/scaleimg.h"; sourceTree = SOURCE_ROOT; };
+		9BE686C61F30B6FB0085DB2D /* scanutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scanutils.h; path = "tesseract-ios-lib/include/tesseract/scanutils.h"; sourceTree = SOURCE_ROOT; };
+		9BE686C71F30B6FB0085DB2D /* secname.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = secname.h; path = "tesseract-ios-lib/include/tesseract/secname.h"; sourceTree = SOURCE_ROOT; };
+		9BE686C81F30B6FB0085DB2D /* serialis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = serialis.h; path = "tesseract-ios-lib/include/tesseract/serialis.h"; sourceTree = SOURCE_ROOT; };
+		9BE686C91F30B6FB0085DB2D /* sorthelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sorthelper.h; path = "tesseract-ios-lib/include/tesseract/sorthelper.h"; sourceTree = SOURCE_ROOT; };
+		9BE686CA1F30B6FB0085DB2D /* stderr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stderr.h; path = "tesseract-ios-lib/include/tesseract/stderr.h"; sourceTree = SOURCE_ROOT; };
+		9BE686CB1F30B6FB0085DB2D /* strngs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strngs.h; path = "tesseract-ios-lib/include/tesseract/strngs.h"; sourceTree = SOURCE_ROOT; };
+		9BE686CC1F30B6FB0085DB2D /* tessbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tessbox.h; path = "tesseract-ios-lib/include/tesseract/tessbox.h"; sourceTree = SOURCE_ROOT; };
+		9BE686CD1F30B6FB0085DB2D /* tesscallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tesscallback.h; path = "tesseract-ios-lib/include/tesseract/tesscallback.h"; sourceTree = SOURCE_ROOT; };
+		9BE686CE1F30B6FB0085DB2D /* tessdatamanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tessdatamanager.h; path = "tesseract-ios-lib/include/tesseract/tessdatamanager.h"; sourceTree = SOURCE_ROOT; };
+		9BE686CF1F30B6FB0085DB2D /* tessedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tessedit.h; path = "tesseract-ios-lib/include/tesseract/tessedit.h"; sourceTree = SOURCE_ROOT; };
+		9BE686D01F30B6FB0085DB2D /* tesseract_cube_combiner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tesseract_cube_combiner.h; path = "tesseract-ios-lib/include/tesseract/tesseract_cube_combiner.h"; sourceTree = SOURCE_ROOT; };
+		9BE686D11F30B6FB0085DB2D /* tesseractclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tesseractclass.h; path = "tesseract-ios-lib/include/tesseract/tesseractclass.h"; sourceTree = SOURCE_ROOT; };
+		9BE686D21F30B6FB0085DB2D /* tesseractmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tesseractmain.h; path = "tesseract-ios-lib/include/tesseract/tesseractmain.h"; sourceTree = SOURCE_ROOT; };
+		9BE686D31F30B6FB0085DB2D /* tessvars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tessvars.h; path = "tesseract-ios-lib/include/tesseract/tessvars.h"; sourceTree = SOURCE_ROOT; };
+		9BE686D41F30B6FB0085DB2D /* tfacep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tfacep.h; path = "tesseract-ios-lib/include/tesseract/tfacep.h"; sourceTree = SOURCE_ROOT; };
+		9BE686D51F30B6FB0085DB2D /* tfacepp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tfacepp.h; path = "tesseract-ios-lib/include/tesseract/tfacepp.h"; sourceTree = SOURCE_ROOT; };
+		9BE686D61F30B6FB0085DB2D /* thresholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thresholder.h; path = "tesseract-ios-lib/include/tesseract/thresholder.h"; sourceTree = SOURCE_ROOT; };
+		9BE686D71F30B6FB0085DB2D /* tprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tprintf.h; path = "tesseract-ios-lib/include/tesseract/tprintf.h"; sourceTree = SOURCE_ROOT; };
+		9BE686D81F30B6FB0085DB2D /* unichar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unichar.h; path = "tesseract-ios-lib/include/tesseract/unichar.h"; sourceTree = SOURCE_ROOT; };
+		9BE686D91F30B6FB0085DB2D /* unicharmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unicharmap.h; path = "tesseract-ios-lib/include/tesseract/unicharmap.h"; sourceTree = SOURCE_ROOT; };
+		9BE686DA1F30B6FB0085DB2D /* unicharset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unicharset.h; path = "tesseract-ios-lib/include/tesseract/unicharset.h"; sourceTree = SOURCE_ROOT; };
+		9BE686DB1F30B6FB0085DB2D /* unicity_table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unicity_table.h; path = "tesseract-ios-lib/include/tesseract/unicity_table.h"; sourceTree = SOURCE_ROOT; };
+		9BE686DC1F30B6FB0085DB2D /* unicodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unicodes.h; path = "tesseract-ios-lib/include/tesseract/unicodes.h"; sourceTree = SOURCE_ROOT; };
+		9BE686DD1F30B6FB0085DB2D /* werdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = werdit.h; path = "tesseract-ios-lib/include/tesseract/werdit.h"; sourceTree = SOURCE_ROOT; };
+		9BE686DE1F30B70B0085DB2D /* allheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = allheaders.h; path = "tesseract-ios-lib/include/leptonica/allheaders.h"; sourceTree = SOURCE_ROOT; };
+		9BE686DF1F30B70B0085DB2D /* alltypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = alltypes.h; path = "tesseract-ios-lib/include/leptonica/alltypes.h"; sourceTree = SOURCE_ROOT; };
+		9BE686E01F30B70B0085DB2D /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = array.h; path = "tesseract-ios-lib/include/leptonica/array.h"; sourceTree = SOURCE_ROOT; };
+		9BE686E11F30B70B0085DB2D /* arrayaccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arrayaccess.h; path = "tesseract-ios-lib/include/leptonica/arrayaccess.h"; sourceTree = SOURCE_ROOT; };
+		9BE686E21F30B70B0085DB2D /* bbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bbuffer.h; path = "tesseract-ios-lib/include/leptonica/bbuffer.h"; sourceTree = SOURCE_ROOT; };
+		9BE686E31F30B70B0085DB2D /* bmf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bmf.h; path = "tesseract-ios-lib/include/leptonica/bmf.h"; sourceTree = SOURCE_ROOT; };
+		9BE686E41F30B70B0085DB2D /* bmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bmp.h; path = "tesseract-ios-lib/include/leptonica/bmp.h"; sourceTree = SOURCE_ROOT; };
+		9BE686E51F30B70B0085DB2D /* ccbord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccbord.h; path = "tesseract-ios-lib/include/leptonica/ccbord.h"; sourceTree = SOURCE_ROOT; };
+		9BE686E61F30B70B0085DB2D /* dewarp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dewarp.h; path = "tesseract-ios-lib/include/leptonica/dewarp.h"; sourceTree = SOURCE_ROOT; };
+		9BE686E71F30B70B0085DB2D /* endianness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = endianness.h; path = "tesseract-ios-lib/include/leptonica/endianness.h"; sourceTree = SOURCE_ROOT; };
+		9BE686E81F30B70B0085DB2D /* environ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = environ.h; path = "tesseract-ios-lib/include/leptonica/environ.h"; sourceTree = SOURCE_ROOT; };
+		9BE686E91F30B70B0085DB2D /* freetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = freetype.h; path = "tesseract-ios-lib/include/leptonica/freetype.h"; sourceTree = SOURCE_ROOT; };
+		9BE686EA1F30B70B0085DB2D /* gplot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gplot.h; path = "tesseract-ios-lib/include/leptonica/gplot.h"; sourceTree = SOURCE_ROOT; };
+		9BE686EB1F30B70B0085DB2D /* heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = heap.h; path = "tesseract-ios-lib/include/leptonica/heap.h"; sourceTree = SOURCE_ROOT; };
+		9BE686EC1F30B70B0085DB2D /* imageio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imageio.h; path = "tesseract-ios-lib/include/leptonica/imageio.h"; sourceTree = SOURCE_ROOT; };
+		9BE686ED1F30B70B0085DB2D /* jbclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbclass.h; path = "tesseract-ios-lib/include/leptonica/jbclass.h"; sourceTree = SOURCE_ROOT; };
+		9BE686EE1F30B70B0085DB2D /* leptwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = leptwin.h; path = "tesseract-ios-lib/include/leptonica/leptwin.h"; sourceTree = SOURCE_ROOT; };
+		9BE686EF1F30B70B0085DB2D /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = list.h; path = "tesseract-ios-lib/include/leptonica/list.h"; sourceTree = SOURCE_ROOT; };
+		9BE686F01F30B70B0085DB2D /* morph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = morph.h; path = "tesseract-ios-lib/include/leptonica/morph.h"; sourceTree = SOURCE_ROOT; };
+		9BE686F11F30B70B0085DB2D /* pix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pix.h; path = "tesseract-ios-lib/include/leptonica/pix.h"; sourceTree = SOURCE_ROOT; };
+		9BE686F21F30B70B0085DB2D /* ptra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ptra.h; path = "tesseract-ios-lib/include/leptonica/ptra.h"; sourceTree = SOURCE_ROOT; };
+		9BE686F31F30B70B0085DB2D /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = queue.h; path = "tesseract-ios-lib/include/leptonica/queue.h"; sourceTree = SOURCE_ROOT; };
+		9BE686F41F30B70B0085DB2D /* readbarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = readbarcode.h; path = "tesseract-ios-lib/include/leptonica/readbarcode.h"; sourceTree = SOURCE_ROOT; };
+		9BE686F51F30B70B0085DB2D /* regutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = regutils.h; path = "tesseract-ios-lib/include/leptonica/regutils.h"; sourceTree = SOURCE_ROOT; };
+		9BE686F61F30B70B0085DB2D /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stack.h; path = "tesseract-ios-lib/include/leptonica/stack.h"; sourceTree = SOURCE_ROOT; };
+		9BE686F71F30B70B0085DB2D /* sudoku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sudoku.h; path = "tesseract-ios-lib/include/leptonica/sudoku.h"; sourceTree = SOURCE_ROOT; };
+		9BE686F81F30B70B0085DB2D /* watershed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = watershed.h; path = "tesseract-ios-lib/include/leptonica/watershed.h"; sourceTree = SOURCE_ROOT; };
+		9BE686F91F30B9AE0085DB2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BE686FB1F30B9C80085DB2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BE686FD1F30B9D30085DB2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6A3D48D4DB8CF12CA2C1619 /* Pods-nutritionTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutritionTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-nutritionTracker/Pods-nutritionTracker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45ABE4161F2810BA004DDC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA7EB291F30F06400F12938 /* libz.tbd in Frameworks */,
+				9BE686FE1F30B9D30085DB2D /* Foundation.framework in Frameworks */,
+				9BE686FC1F30B9C80085DB2D /* UIKit.framework in Frameworks */,
+				9BE686FA1F30B9AE0085DB2D /* CoreGraphics.framework in Frameworks */,
+				9BE686931F30B6E50085DB2D /* liblept.a in Frameworks */,
+				9BE6867B1F30B37B0085DB2D /* libstdc++.6.0.9.tbd in Frameworks */,
+				9BE686941F30B6E50085DB2D /* libtesseract_all.a in Frameworks */,
+				5543B0C515F145A7355177BD /* libPods-nutritionTracker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ABE4321F2810BB004DDC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ABE43D1F2810BB004DDC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45ABE4101F2810BA004DDC3F = {
+			isa = PBXGroup;
+			children = (
+				9BE686741F30A9A60085DB2D /* Model.xcdatamodeld */,
+				45ABE41B1F2810BA004DDC3F /* nutritionTracker */,
+				45ABE4381F2810BB004DDC3F /* nutritionTrackerTests */,
+				45ABE4431F2810BB004DDC3F /* nutritionTrackerUITests */,
+				45ABE41A1F2810BA004DDC3F /* Products */,
+				C834DC8E0D836650B516A310 /* Pods */,
+				D527BECB947430B585BCFA23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45ABE41A1F2810BA004DDC3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45ABE4191F2810BA004DDC3F /* nutritionTracker.app */,
+				45ABE4351F2810BB004DDC3F /* nutritionTrackerTests.xctest */,
+				45ABE4401F2810BB004DDC3F /* nutritionTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45ABE41B1F2810BA004DDC3F /* nutritionTracker */ = {
+			isa = PBXGroup;
+			children = (
+				9B1FDBF31F30F68600AD213E /* home-icon.jpg */,
+				9BA7EB261F30EF7900F12938 /* tessdata */,
+				9BA7EB201F30E3E700F12938 /* Default-568h@2x.png */,
+				9BA7EB211F30E3E700F12938 /* Default.png */,
+				9BA7EB221F30E3E700F12938 /* Default@2x.png */,
+				9BE6868A1F30B6710085DB2D /* tesseract-ios-lib */,
+				9BE686811F30B6270085DB2D /* tesseract-ios */,
+				9BE6867D1F30B6110085DB2D /* TesseractSample-Prefix.pch */,
+				9BE686771F30B1B20085DB2D /* UICameraViewController.h */,
+				9BE686781F30B1B20085DB2D /* UICameraViewController.mm */,
+				9BE686711F30A75B0085DB2D /* PieProgressView.h */,
+				9BE686721F30A75B0085DB2D /* PieProgressView.m */,
+				9BE686661F30A7050085DB2D /* EditGoalViewController.h */,
+				9BE686671F30A7050085DB2D /* EditGoalViewController.m */,
+				9BE686681F30A7050085DB2D /* en.lproj */,
+				9BE686691F30A7050085DB2D /* Food.h */,
+				9BE6866A1F30A7050085DB2D /* Food.m */,
+				9BE6866B1F30A7050085DB2D /* HomeViewController.h */,
+				9BE6866C1F30A7050085DB2D /* HomeViewController.m */,
+				45ABE41F1F2810BA004DDC3F /* AppDelegate.h */,
+				45ABE4201F2810BA004DDC3F /* AppDelegate.m */,
+				45ABE4281F2810BA004DDC3F /* Main.storyboard */,
+				8450F67D1F2CE42A00C1E0B8 /* AddReminderViewController.h */,
+				8450F67E1F2CE42A00C1E0B8 /* AddReminderViewController.m */,
+				8450F6821F2D5A2800C1E0B8 /* DeleteViewController.h */,
+				8450F6831F2D5A2800C1E0B8 /* DeleteViewController.m */,
+				8450F67A1F2CE29200C1E0B8 /* ReminderTableViewController.h */,
+				8450F67B1F2CE29200C1E0B8 /* ReminderTableViewController.m */,
+				45ABE42B1F2810BA004DDC3F /* Assets.xcassets */,
+				45ABE42D1F2810BA004DDC3F /* LaunchScreen.storyboard */,
+				8450F6801F2CFAD700C1E0B8 /* GoogleService-Info.plist */,
+				45ABE4301F2810BA004DDC3F /* Info.plist */,
+				45ABE41C1F2810BA004DDC3F /* Supporting Files */,
+			);
+			path = nutritionTracker;
+			sourceTree = "<group>";
+		};
+		45ABE41C1F2810BA004DDC3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45ABE41D1F2810BA004DDC3F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45ABE4381F2810BB004DDC3F /* nutritionTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				45ABE4391F2810BB004DDC3F /* nutritionTrackerTests.m */,
+				45ABE43B1F2810BB004DDC3F /* Info.plist */,
+			);
+			path = nutritionTrackerTests;
+			sourceTree = "<group>";
+		};
+		45ABE4431F2810BB004DDC3F /* nutritionTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45ABE4441F2810BB004DDC3F /* nutritionTrackerUITests.m */,
+				45ABE4461F2810BB004DDC3F /* Info.plist */,
+			);
+			path = nutritionTrackerUITests;
+			sourceTree = "<group>";
+		};
+		9BE686811F30B6270085DB2D /* tesseract-ios */ = {
+			isa = PBXGroup;
+			children = (
+				9BE686861F30B6690085DB2D /* LICENSE */,
+				9BE686871F30B6690085DB2D /* README.md */,
+				9BE686821F30B6400085DB2D /* Classes */,
+			);
+			name = "tesseract-ios";
+			sourceTree = "<group>";
+		};
+		9BE686821F30B6400085DB2D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9BE686831F30B65A0085DB2D /* Tesseract.h */,
+				9BE686841F30B65A0085DB2D /* Tesseract.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		9BE6868A1F30B6710085DB2D /* tesseract-ios-lib */ = {
+			isa = PBXGroup;
+			children = (
+				9BE686901F30B6D20085DB2D /* lib */,
+				9BE6868D1F30B69C0085DB2D /* include */,
+				9BE6868B1F30B6970085DB2D /* README.md */,
+			);
+			name = "tesseract-ios-lib";
+			sourceTree = "<group>";
+		};
+		9BE6868D1F30B69C0085DB2D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9BE6868F1F30B6C30085DB2D /* tesseract */,
+				9BE6868E1F30B6BC0085DB2D /* leptonica */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		9BE6868E1F30B6BC0085DB2D /* leptonica */ = {
+			isa = PBXGroup;
+			children = (
+				9BE686DE1F30B70B0085DB2D /* allheaders.h */,
+				9BE686DF1F30B70B0085DB2D /* alltypes.h */,
+				9BE686E01F30B70B0085DB2D /* array.h */,
+				9BE686E11F30B70B0085DB2D /* arrayaccess.h */,
+				9BE686E21F30B70B0085DB2D /* bbuffer.h */,
+				9BE686E31F30B70B0085DB2D /* bmf.h */,
+				9BE686E41F30B70B0085DB2D /* bmp.h */,
+				9BE686E51F30B70B0085DB2D /* ccbord.h */,
+				9BE686E61F30B70B0085DB2D /* dewarp.h */,
+				9BE686E71F30B70B0085DB2D /* endianness.h */,
+				9BE686E81F30B70B0085DB2D /* environ.h */,
+				9BE686E91F30B70B0085DB2D /* freetype.h */,
+				9BE686EA1F30B70B0085DB2D /* gplot.h */,
+				9BE686EB1F30B70B0085DB2D /* heap.h */,
+				9BE686EC1F30B70B0085DB2D /* imageio.h */,
+				9BE686ED1F30B70B0085DB2D /* jbclass.h */,
+				9BE686EE1F30B70B0085DB2D /* leptwin.h */,
+				9BE686EF1F30B70B0085DB2D /* list.h */,
+				9BE686F01F30B70B0085DB2D /* morph.h */,
+				9BE686F11F30B70B0085DB2D /* pix.h */,
+				9BE686F21F30B70B0085DB2D /* ptra.h */,
+				9BE686F31F30B70B0085DB2D /* queue.h */,
+				9BE686F41F30B70B0085DB2D /* readbarcode.h */,
+				9BE686F51F30B70B0085DB2D /* regutils.h */,
+				9BE686F61F30B70B0085DB2D /* stack.h */,
+				9BE686F71F30B70B0085DB2D /* sudoku.h */,
+				9BE686F81F30B70B0085DB2D /* watershed.h */,
+			);
+			name = leptonica;
+			sourceTree = "<group>";
+		};
+		9BE6868F1F30B6C30085DB2D /* tesseract */ = {
+			isa = PBXGroup;
+			children = (
+				9BE686951F30B6FB0085DB2D /* ambigs.h */,
+				9BE686961F30B6FB0085DB2D /* apitypes.h */,
+				9BE686971F30B6FB0085DB2D /* baseapi.h */,
+				9BE686981F30B6FB0085DB2D /* basedir.h */,
+				9BE686991F30B6FB0085DB2D /* bits16.h */,
+				9BE6869A1F30B6FB0085DB2D /* bitvector.h */,
+				9BE6869B1F30B6FB0085DB2D /* ccutil.h */,
+				9BE6869C1F30B6FB0085DB2D /* clst.h */,
+				9BE6869D1F30B6FB0085DB2D /* control.h */,
+				9BE6869E1F30B6FB0085DB2D /* cube_reco_context.h */,
+				9BE6869F1F30B6FB0085DB2D /* cubeclassifier.h */,
+				9BE686A01F30B6FB0085DB2D /* docqual.h */,
+				9BE686A11F30B6FB0085DB2D /* elst.h */,
+				9BE686A21F30B6FB0085DB2D /* elst2.h */,
+				9BE686A31F30B6FB0085DB2D /* equationdetect.h */,
+				9BE686A41F30B6FB0085DB2D /* errcode.h */,
+				9BE686A51F30B6FB0085DB2D /* fileerr.h */,
+				9BE686A61F30B6FB0085DB2D /* fixspace.h */,
+				9BE686A71F30B6FB0085DB2D /* genericvector.h */,
+				9BE686A81F30B6FB0085DB2D /* globaloc.h */,
+				9BE686A91F30B6FB0085DB2D /* hashfn.h */,
+				9BE686AA1F30B6FB0085DB2D /* helpers.h */,
+				9BE686AB1F30B6FB0085DB2D /* host.h */,
+				9BE686AC1F30B6FB0085DB2D /* hosthplb.h */,
+				9BE686AD1F30B6FB0085DB2D /* imgscale.h */,
+				9BE686AE1F30B6FB0085DB2D /* indexmapbidi.h */,
+				9BE686AF1F30B6FB0085DB2D /* lsterr.h */,
+				9BE686B01F30B6FB0085DB2D /* ltrresultiterator.h */,
+				9BE686B11F30B6FB0085DB2D /* memry.h */,
+				9BE686B21F30B6FB0085DB2D /* mfcpch.h */,
+				9BE686B31F30B6FB0085DB2D /* mutableiterator.h */,
+				9BE686B41F30B6FB0085DB2D /* ndminx.h */,
+				9BE686B51F30B6FB0085DB2D /* notdll.h */,
+				9BE686B61F30B6FB0085DB2D /* nwmain.h */,
+				9BE686B71F30B6FB0085DB2D /* ocrclass.h */,
+				9BE686B81F30B6FB0085DB2D /* osdetect.h */,
+				9BE686B91F30B6FB0085DB2D /* output.h */,
+				9BE686BA1F30B6FB0085DB2D /* pageiterator.h */,
+				9BE686BB1F30B6FB0085DB2D /* paragraphs_internal.h */,
+				9BE686BC1F30B6FB0085DB2D /* paragraphs.h */,
+				9BE686BD1F30B6FB0085DB2D /* params.h */,
+				9BE686BE1F30B6FB0085DB2D /* paramsd.h */,
+				9BE686BF1F30B6FB0085DB2D /* pgedit.h */,
+				9BE686C01F30B6FB0085DB2D /* platform.h */,
+				9BE686C11F30B6FB0085DB2D /* publictypes.h */,
+				9BE686C21F30B6FB0085DB2D /* qrsequence.h */,
+				9BE686C31F30B6FB0085DB2D /* reject.h */,
+				9BE686C41F30B6FB0085DB2D /* resultiterator.h */,
+				9BE686C51F30B6FB0085DB2D /* scaleimg.h */,
+				9BE686C61F30B6FB0085DB2D /* scanutils.h */,
+				9BE686C71F30B6FB0085DB2D /* secname.h */,
+				9BE686C81F30B6FB0085DB2D /* serialis.h */,
+				9BE686C91F30B6FB0085DB2D /* sorthelper.h */,
+				9BE686CA1F30B6FB0085DB2D /* stderr.h */,
+				9BE686CB1F30B6FB0085DB2D /* strngs.h */,
+				9BE686CC1F30B6FB0085DB2D /* tessbox.h */,
+				9BE686CD1F30B6FB0085DB2D /* tesscallback.h */,
+				9BE686CE1F30B6FB0085DB2D /* tessdatamanager.h */,
+				9BE686CF1F30B6FB0085DB2D /* tessedit.h */,
+				9BE686D01F30B6FB0085DB2D /* tesseract_cube_combiner.h */,
+				9BE686D11F30B6FB0085DB2D /* tesseractclass.h */,
+				9BE686D21F30B6FB0085DB2D /* tesseractmain.h */,
+				9BE686D31F30B6FB0085DB2D /* tessvars.h */,
+				9BE686D41F30B6FB0085DB2D /* tfacep.h */,
+				9BE686D51F30B6FB0085DB2D /* tfacepp.h */,
+				9BE686D61F30B6FB0085DB2D /* thresholder.h */,
+				9BE686D71F30B6FB0085DB2D /* tprintf.h */,
+				9BE686D81F30B6FB0085DB2D /* unichar.h */,
+				9BE686D91F30B6FB0085DB2D /* unicharmap.h */,
+				9BE686DA1F30B6FB0085DB2D /* unicharset.h */,
+				9BE686DB1F30B6FB0085DB2D /* unicity_table.h */,
+				9BE686DC1F30B6FB0085DB2D /* unicodes.h */,
+				9BE686DD1F30B6FB0085DB2D /* werdit.h */,
+			);
+			name = tesseract;
+			sourceTree = "<group>";
+		};
+		9BE686901F30B6D20085DB2D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9BE686911F30B6E50085DB2D /* liblept.a */,
+				9BE686921F30B6E50085DB2D /* libtesseract_all.a */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		C834DC8E0D836650B516A310 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0858104EF2E5A4660AFEC35B /* Pods-nutritionTracker.debug.xcconfig */,
+				E6A3D48D4DB8CF12CA2C1619 /* Pods-nutritionTracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D527BECB947430B585BCFA23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BA7EB281F30F06400F12938 /* libz.tbd */,
+				9BE686FD1F30B9D30085DB2D /* Foundation.framework */,
+				9BE686FB1F30B9C80085DB2D /* UIKit.framework */,
+				9BE686F91F30B9AE0085DB2D /* CoreGraphics.framework */,
+				9BE6867A1F30B37B0085DB2D /* libstdc++.6.0.9.tbd */,
+				4D782083BA228A90E09F60E9 /* libPods-nutritionTracker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45ABE4181F2810BA004DDC3F /* nutritionTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45ABE4491F2810BB004DDC3F /* Build configuration list for PBXNativeTarget "nutritionTracker" */;
+			buildPhases = (
+				E0920D8B780F6314C3C9E3D9 /* [CP] Check Pods Manifest.lock */,
+				45ABE4151F2810BA004DDC3F /* Sources */,
+				45ABE4161F2810BA004DDC3F /* Frameworks */,
+				45ABE4171F2810BA004DDC3F /* Resources */,
+				7DD1E9AF2E0115B0D1A39485 /* [CP] Embed Pods Frameworks */,
+				EB9560FDC3110F8C17BE6EAB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nutritionTracker;
+			productName = nutritionTracker;
+			productReference = 45ABE4191F2810BA004DDC3F /* nutritionTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45ABE4341F2810BB004DDC3F /* nutritionTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45ABE44C1F2810BB004DDC3F /* Build configuration list for PBXNativeTarget "nutritionTrackerTests" */;
+			buildPhases = (
+				45ABE4311F2810BB004DDC3F /* Sources */,
+				45ABE4321F2810BB004DDC3F /* Frameworks */,
+				45ABE4331F2810BB004DDC3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45ABE4371F2810BB004DDC3F /* PBXTargetDependency */,
+			);
+			name = nutritionTrackerTests;
+			productName = nutritionTrackerTests;
+			productReference = 45ABE4351F2810BB004DDC3F /* nutritionTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45ABE43F1F2810BB004DDC3F /* nutritionTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45ABE44F1F2810BB004DDC3F /* Build configuration list for PBXNativeTarget "nutritionTrackerUITests" */;
+			buildPhases = (
+				45ABE43C1F2810BB004DDC3F /* Sources */,
+				45ABE43D1F2810BB004DDC3F /* Frameworks */,
+				45ABE43E1F2810BB004DDC3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45ABE4421F2810BB004DDC3F /* PBXTargetDependency */,
+			);
+			name = nutritionTrackerUITests;
+			productName = nutritionTrackerUITests;
+			productReference = 45ABE4401F2810BB004DDC3F /* nutritionTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45ABE4111F2810BA004DDC3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CarnegieMellonUniversity;
+				TargetAttributes = {
+					45ABE4181F2810BA004DDC3F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5928Q7CQVV;
+						ProvisioningStyle = Automatic;
+					};
+					45ABE4341F2810BB004DDC3F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45ABE4181F2810BA004DDC3F;
+					};
+					45ABE43F1F2810BB004DDC3F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45ABE4181F2810BA004DDC3F;
+					};
+				};
+			};
+			buildConfigurationList = 45ABE4141F2810BA004DDC3F /* Build configuration list for PBXProject "nutritionTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45ABE4101F2810BA004DDC3F;
+			productRefGroup = 45ABE41A1F2810BA004DDC3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45ABE4181F2810BA004DDC3F /* nutritionTracker */,
+				45ABE4341F2810BB004DDC3F /* nutritionTrackerTests */,
+				45ABE43F1F2810BB004DDC3F /* nutritionTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45ABE4171F2810BA004DDC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ABE42F1F2810BA004DDC3F /* LaunchScreen.storyboard in Resources */,
+				9BA7EB241F30E3E700F12938 /* Default.png in Resources */,
+				9BA7EB251F30E3E700F12938 /* Default@2x.png in Resources */,
+				8450F6811F2CFAD700C1E0B8 /* GoogleService-Info.plist in Resources */,
+				45ABE42C1F2810BA004DDC3F /* Assets.xcassets in Resources */,
+				9BE686881F30B6690085DB2D /* LICENSE in Resources */,
+				9BA7EB231F30E3E700F12938 /* Default-568h@2x.png in Resources */,
+				9BA7EB271F30EF7900F12938 /* tessdata in Resources */,
+				9B1FDBF41F30F68600AD213E /* home-icon.jpg in Resources */,
+				9BE6866E1F30A7050085DB2D /* en.lproj in Resources */,
+				45ABE42A1F2810BA004DDC3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ABE4331F2810BB004DDC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ABE43E1F2810BB004DDC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DD1E9AF2E0115B0D1A39485 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nutritionTracker/Pods-nutritionTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0920D8B780F6314C3C9E3D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB9560FDC3110F8C17BE6EAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nutritionTracker/Pods-nutritionTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45ABE4151F2810BA004DDC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8450F67F1F2CE42A00C1E0B8 /* AddReminderViewController.m in Sources */,
+				9BE686791F30B1B20085DB2D /* UICameraViewController.mm in Sources */,
+				9BE686731F30A75B0085DB2D /* PieProgressView.m in Sources */,
+				8450F67C1F2CE29200C1E0B8 /* ReminderTableViewController.m in Sources */,
+				9BE6868C1F30B6970085DB2D /* README.md in Sources */,
+				45ABE4211F2810BA004DDC3F /* AppDelegate.m in Sources */,
+				8450F6841F2D5A2800C1E0B8 /* DeleteViewController.m in Sources */,
+				9BE686891F30B6690085DB2D /* README.md in Sources */,
+				9BE686851F30B65A0085DB2D /* Tesseract.mm in Sources */,
+				45ABE41E1F2810BA004DDC3F /* main.m in Sources */,
+				9BE686761F30A9A60085DB2D /* Model.xcdatamodeld in Sources */,
+				9BE6866D1F30A7050085DB2D /* EditGoalViewController.m in Sources */,
+				9BE686701F30A7050085DB2D /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ABE4311F2810BB004DDC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ABE43A1F2810BB004DDC3F /* nutritionTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ABE43C1F2810BB004DDC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45ABE4451F2810BB004DDC3F /* nutritionTrackerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45ABE4371F2810BB004DDC3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45ABE4181F2810BA004DDC3F /* nutritionTracker */;
+			targetProxy = 45ABE4361F2810BB004DDC3F /* PBXContainerItemProxy */;
+		};
+		45ABE4421F2810BB004DDC3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45ABE4181F2810BA004DDC3F /* nutritionTracker */;
+			targetProxy = 45ABE4411F2810BB004DDC3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45ABE4281F2810BA004DDC3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45ABE4291F2810BA004DDC3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45ABE42D1F2810BA004DDC3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45ABE42E1F2810BA004DDC3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45ABE4471F2810BB004DDC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45ABE4481F2810BB004DDC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45ABE44A1F2810BB004DDC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0858104EF2E5A4660AFEC35B /* Pods-nutritionTracker.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5928Q7CQVV;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = nutritionTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tesseract-ios-lib/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.nutritionTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45ABE44B1F2810BB004DDC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A3D48D4DB8CF12CA2C1619 /* Pods-nutritionTracker.release.xcconfig */;
+			buildSettings = {
+				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5928Q7CQVV;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = nutritionTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/tesseract-ios-lib/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.nutritionTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45ABE44D1F2810BB004DDC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nutritionTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.nutritionTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nutritionTracker.app/nutritionTracker";
+			};
+			name = Debug;
+		};
+		45ABE44E1F2810BB004DDC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nutritionTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.nutritionTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nutritionTracker.app/nutritionTracker";
+			};
+			name = Release;
+		};
+		45ABE4501F2810BB004DDC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nutritionTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.nutritionTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nutritionTracker;
+			};
+			name = Debug;
+		};
+		45ABE4511F2810BB004DDC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nutritionTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cmu.nutritionTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nutritionTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45ABE4141F2810BA004DDC3F /* Build configuration list for PBXProject "nutritionTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ABE4471F2810BB004DDC3F /* Debug */,
+				45ABE4481F2810BB004DDC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45ABE4491F2810BB004DDC3F /* Build configuration list for PBXNativeTarget "nutritionTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ABE44A1F2810BB004DDC3F /* Debug */,
+				45ABE44B1F2810BB004DDC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45ABE44C1F2810BB004DDC3F /* Build configuration list for PBXNativeTarget "nutritionTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ABE44D1F2810BB004DDC3F /* Debug */,
+				45ABE44E1F2810BB004DDC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45ABE44F1F2810BB004DDC3F /* Build configuration list for PBXNativeTarget "nutritionTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ABE4501F2810BB004DDC3F /* Debug */,
+				45ABE4511F2810BB004DDC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BE686741F30A9A60085DB2D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BE686751F30A9A60085DB2D /* Model.xcdatamodel */,
+			);
+			currentVersion = 9BE686751F30A9A60085DB2D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45ABE4111F2810BA004DDC3F /* Project object */;
+}
